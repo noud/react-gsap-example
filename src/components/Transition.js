@@ -1,7 +1,7 @@
 // @flow
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import { Tween, Timeline, SplitWords, SplitLetters, Controls } from 'react-gsap';
+import { Tween, Timeline } from 'react-gsap';
 import { Transition, TransitionGroup } from 'react-transition-group';
 import uuid from 'uuid';
 
@@ -73,7 +73,7 @@ class TransitionComponent extends React.Component {
 
     return (
       <TransitionStyled>
-        Play with these example on <a href="https://stackblitz.com/edit/react-v61on3" target="_blank">StackBlitz.io</a>
+        Play with these example on <a href="https://stackblitz.com/edit/react-v61on3" target="_blank" rel="noopener noreferrer">StackBlitz.io</a>
 
         <div className="section">Mount/Unmount Animation - built with React Transition Group</div>
 

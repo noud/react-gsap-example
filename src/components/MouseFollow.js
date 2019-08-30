@@ -1,7 +1,7 @@
 // @flow
-import React, { PureComponent, Fragment } from 'react';
+import React, { PureComponent } from 'react';
 import styled from 'styled-components';
-import { Tween, Timeline, SplitWords, SplitLetters, Controls } from 'react-gsap';
+import { Tween } from 'react-gsap';
 
 const MouseFollowStyled = styled.div`
 
@@ -62,7 +62,7 @@ class MouseFollowComponent extends PureComponent {
   }
 
   render() {
-    const { x, y, completed } = this.state;
+    const { x, y } = this.state;
 
     const colors = ['red', 'yellow', 'green'];
 

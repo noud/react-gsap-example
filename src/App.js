@@ -25,9 +25,9 @@ const AppStyled = styled.div`
   }
 `;
 
-const Home = () => (
-  <div />
-);
+// const Home = () => (
+//   <div />
+// );
 
 const App = () => (
   <AppStyled>

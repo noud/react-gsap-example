@@ -1,7 +1,7 @@
 // @flow
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import { Tween, Timeline, SplitWords, SplitLetters, Controls } from 'react-gsap';
+import { Tween, SplitWords, SplitLetters, Controls } from 'react-gsap';
 
 const Square = styled.div`
   background-color: red;
@@ -16,7 +16,7 @@ const TweenStyled = styled.div`
 
 const TweenComponent = () => (
   <TweenStyled>
-    Play with these examples on <a href="https://stackblitz.com/edit/react-gmmwqj" target="_blank">StackBlitz.io</a>
+    Play with these examples on <a href="https://stackblitz.com/edit/react-gmmwqj" target="_blank" rel="noopener noreferrer">StackBlitz.io</a>
 
     <div className="section">SplitWords component</div>
 
@@ -24,7 +24,7 @@ const TweenComponent = () => (
       <Tween
         from={{ x: '300px', rotation: -360 }}
       >
-        <SplitWords><div style={{ display: 'inline-block', fontSize: '40px' }}>This is a Test</div></SplitWords>
+        <SplitWords><div style={{ display: 'inline-block', fontSize: '40px' }}>This is a Test!</div></SplitWords>
       </Tween>
     </Controls>
 
